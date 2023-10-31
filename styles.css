@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* About me section */
+.header-bg {
+    background-image: url('Resources/Images/HeaderBackground.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Project section */
+.project {
+    display: flex;
+    max-width: 1100px;
+    width: 80%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+.project-description {
+    flex: 2;
+    padding: 20px;
+}
+
+.project-description h1 {
+    margin-top: 10px;
+}
+
+/* About Me section */
+.about-me {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.about-me h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Contact section */
+.contact {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 10px 0;
+}
