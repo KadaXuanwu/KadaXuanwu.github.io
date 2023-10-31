@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #303030;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
     padding: 20px;
     text-align: center;
 }
-
 
 /* About me section */
 .header-bg {
@@ -21,20 +21,37 @@ header {
 .about-me {
     max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.about-me h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Project section */
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-/* Project section */
 .project {
     display: flex;
     max-width: 1100px;
-    width: 80%;
-    margin: 20px 0;
+    width: 95%;
+    margin: 30px auto;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -56,7 +73,18 @@ main {
 }
 
 .project-description h1 {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-description h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.project-description p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* About Me section */
