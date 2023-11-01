@@ -3,15 +3,25 @@ body {
     margin: 0;
     padding: 0;
     color: #303030;
+    background-color: #f0f0f0;
 }
 
 header {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
+    color: #f0f0f0;
 }
 
 /* About me section */
+.youtube-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: red;
+}
+
 .header-bg {
     background-image: url('Resources/Images/HeaderBackground.jpg');
     background-size: cover;
@@ -19,11 +29,10 @@ header {
 }
 
 .about-me {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.65);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -43,8 +52,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project {
@@ -87,29 +96,14 @@ main {
     margin-bottom: 15px;
 }
 
-/* About Me section */
-.about-me {
-    background-color: #f9f9f9;
-    padding: 50px 20px;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
-}
-
-.about-me h1 {
-    font-size: 2em;
-    color: #333;
-}
-
 /* Contact section */
 .contact {
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;
     text-align: center;
     padding: 20px 20px;
 }
 
 .contact h2 {
-    font-size: 1.5em;
-    color: #333;
     margin-bottom: 20px;
 }
 

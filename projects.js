@@ -1,15 +1,24 @@
-const projects = [
+  const projects = [
+    {
+        image: "Resources/Images/SplashartStealthgun.png",
+        category: "Game",
+        title: "Stealth Gun",
+        description: "An online shooter where each player is invisible by default. Use different mechanics to find out where the enemy is and collect as many gems as possible!",
+        link: "https://kada-xuanwu.itch.io/stealth-gun"
+    },
     {
         image: "Resources/Images/SplashartUtilitydesigner.png",
         category: "Unity Tool",
         title: "Utility Designer",
-        description: "A graphical tool for the Unity Asset Store that allows the creation of Non-Player Characters by combining the concept of Utility AI and Behaviour Trees."
+        description: "A graphical tool for the Unity Asset Store that allows the creation of Non-Player Characters by combining the concept of Utility AI and Behaviour Trees.",
+        link: "https://assetstore.unity.com"
     },
     {
         image: "Resources/Images/SplashartDonthitme.png",
         category: "Game",
         title: "Don't Hit Me",
-        description: "An online battle arena, which is all about MISSING your abilities! Gain score when using abilities, but be mindful, others will steal score from you when hit."
+        description: "An online battle arena, which is all about MISSING your abilities! Gain score when using abilities, but be mindful, others will steal score from you when hit.",
+        link: "https://kada-xuanwu.itch.io/dont-hit-me"
     }
 ];
 
@@ -22,11 +31,16 @@ function createProjectSection(project) {
     const imageDiv = document.createElement('div');
     imageDiv.classList.add('project-image');
 
+    const imageLink = document.createElement('a');
+    imageLink.href = project.link;
+    imageLink.target = "_blank";
+
     const image = document.createElement('img');
     image.src = project.image;
     image.alt = project.title + ' Image';
 
-    imageDiv.appendChild(image);
+    imageLink.appendChild(image);
+    imageDiv.appendChild(imageLink);
 
     const descriptionDiv = document.createElement('div');
     descriptionDiv.classList.add('project-description');
