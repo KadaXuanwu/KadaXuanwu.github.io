@@ -1,4 +1,4 @@
-  const projects = [
+const projects = [
     {
         image: "Resources/Images/SplashartStealthgun.png",
         category: "Game",
