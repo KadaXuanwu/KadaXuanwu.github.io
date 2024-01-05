@@ -11,7 +11,7 @@ const projects = [
         category: "Unity Tool",
         title: "Utility Designer",
         description: "A graphical tool for the Unity Asset Store that allows the creation of Non-Player Characters by combining the concept of Utility AI and Behaviour Trees.",
-        link: "https://assetstore.unity.com"
+        link: "https://assetstore.unity.com/packages/tools/behavior-ai/utility-designer-combining-utility-ai-and-behaviour-trees-257126"
     },
     {
         image: "Resources/Images/SplashartDonthitme.png",
