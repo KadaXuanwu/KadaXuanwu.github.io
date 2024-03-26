@@ -4,7 +4,7 @@ const projects = [
         category: "Game",
         title: "Stealth Gun",
         description: "An online shooter where each player is invisible by default. Use different mechanics to find out where the enemy is and collect as many gems as possible!",
-        link: "https://kada-xuanwu.itch.io/stealth-gun"
+        link: "https://store.steampowered.com/app/2883690/Stealth_Gun/"
     },
     {
         image: "Resources/Images/SplashartUtilitydesigner.png",
